@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Otieno Wycliffe Nyore">
+  <title>Kayoni Graphics and Branding</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- HERO / HEADER -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 id="welcome-message">Welcome to Kayoni Graphics</h1>
+      <p>Quality Assured Branding & Printing</p>
+      <button id="modeToggle" class="cta-btn">🌙 Toggle Dark/Light</button>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Services ▾</a>
+        <ul>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Branding</a></li>
+          <li><a href="#">Printing</a></li>
+        </ul>
+      </li>
+      <li><a href="#contactForm">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Services Offered</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-paint-brush service-icon"></i>
+        <h3>Graphic Design</h3>
+        <p>Creative and professional designs tailored to your brand identity.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-tags service-icon"></i>
+        <h3>Branding</h3>
+        <ul>
+          <li>Jerseys</li>
+          <li>T-shirts</li>
+          <li>Reflectors</li>
+          <li>Caps</li>
+          <li>Mugs</li>
+          <li>Pens</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-print service-icon"></i>
+        <h3>Design & Printing</h3>
+        <ul>
+          <li>Banners</li>
+          <li>Posters</li>
+          <li>Business Cards</li>
+          <li>Flyers</li>
+          <li>Eulogies</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-book service-icon"></i>
+        <h3>Printing, Perforating & Binding</h3>
+        <ul>
+          <li>Receipt Books</li>
+          <li>Delivery Notebooks</li>
+          <li>Invoice Books</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section>
+    <h2>Our Work (Gallery)</h2>
+    <div class="gallery">
+      <img src="images/logo 1.jpg" alt="Graphic Design Sample">
+      <img src="images/logo 2.jpg" alt="Graphic Design Sample">
+      <img src="images/logo 3.jpg" alt="Graphic Design Sample">     
+    </div>
+    <div class="gallery-controls">
+      <button id="prevBtn">⟨ Prev</button>
+      <button id="nextBtn">Next ⟩</button>
+    </div>
+  </section>
+
+  <!-- Counter Game -->
+  <section id="counter-section">
+    <h2>Fun Counter Game</h2>
+    <p id="counter">0</p>
+    <button id="increase">Increase</button>
+    <button id="decrease">Decrease</button>
+    <button id="reset">Reset</button>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <strong>What services do you offer?</strong>
+      <p class="faq-answer">We offer graphic design, branding, printing, and publishing services.</p>
+    </div>
+    <div class="faq-item">
+      <strong>Where are you located?</strong>
+      <p class="faq-answer">We are located in Homa Bay, Legacy Plaza – 2nd Floor, Door No. 25.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kayoni Graphics and Branding | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
